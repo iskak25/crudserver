@@ -1,0 +1,54 @@
+table.iksweb {
+  text-decoration: none;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+
+  th {
+    font-weight: normal;
+    font-size: 27px;
+    color: #ffffff;
+    background-color: #e65727;
+  }
+  td {
+    font-size: 25px;
+    color: #c4aa43;
+    border: none;
+  }
+  td,
+  th {
+    white-space: pre-wrap;
+    padding: 10px 27px;
+    line-height: 25px;
+    vertical-align: middle;
+    .btnDelete {
+      color: #f9fafb;
+      width: 90px;
+      height: 40px;
+      background-color: rgb(203, 53, 53);
+      border: none;
+      border-radius: 10px;
+    }
+    .btnEdit {
+      color: #f9fafb;
+      width: 90px;
+      height: 40px;
+      background-color: rgb(53, 160, 45);
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+  }
+  tr:hover {
+    background-color: #f9fafb;
+  }
+  tr:hover td {
+    color: #235375;
+    cursor: pointer;
+  }
+}
+.mobile-table {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
